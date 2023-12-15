@@ -1,1 +1,54 @@
 * {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeae3;
+}
+
+.header {
+    padding: 10px 0;
+    background-color: dodgerblue;
+    border-bottom: 3px solid red;
+}
+
+.main {
+    padding: 40px 0;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.menu-div {
+    padding: 60px 0;
+}
+
+.subtotal-div, .ticket-div {
+    padding: 15px 0;
+    background-color: whitesmoke;
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+}
+
+#receiptTable {
+    padding: 10px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+.menu-image {
+    height: 200px;
+} 
+
+h2 {
+    color: red;
+}
+
+.card-title {
+    color: dodgerblue;
+}
+
+.footer {
+    padding: 10px 0;
+}
